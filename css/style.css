@@ -15,8 +15,19 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
 }
 
+.caption {
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
 .slide-1-text-shadow {
-text-shadow: 2px 2px 8px #a84242;
+    text-shadow: 2px 2px 8px #a84242;
+}
+
+.slide-2-text-shadow {
+    text-shadow: 2px 2px 8px #585858;
 }
 
 body, html {
@@ -84,3 +95,32 @@ body, html {
     object-fit: cover;
     overflow: hidden;
 }
+
+audio {
+    height:40px;
+    width: 250px;
+}
+
+.video-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+     z-index: -1;
+}
+    
+.video-3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+
+    
